@@ -278,8 +278,8 @@ var Game = function Game(channel, client, config, cmdArgs) {
         _.each(self.players, function (player) {
             player.hasPlayed = false;
             player.isCzar = false;
-            // check inactive count & remove after 3
-            if (player.inactiveRounds >= 3) {
+            // check inactive count & remove after 1
+            if (player.inactiveRounds >= 1) {
                 self.removePlayer(player, {silent: true});
                 removedNicks.push(player.nick);
             }
@@ -306,7 +306,7 @@ var Game = function Game(channel, client, config, cmdArgs) {
         if (card.draw > 0) {
             value += c.bold(' [DRAW ' + card.draw + ']');
         }
-        self.say(c.bold('CARD: ') + value);
+        self.say(c.bold('CARD: ' + value));
         self.table.question = card;
         // draw cards
         if (self.table.question.draw > 0) {
@@ -834,7 +834,7 @@ var Game = function Game(channel, client, config, cmdArgs) {
     self.setTopic(c.bold.lime('A game is running. Type !join to get in on it!'));
 
     // announce the game on the channel
-    self.say('A new game of ' + c.rainbow('Cards Against Humanity') + '. The game starts in 30 seconds. Type !join to join the game any time.');
+    self.say('A new game of ' + c.rainbow('Cards Against Humanity') + '. The game starts in 60 seconds. Type !join to join the game any time.');
 
     // notify users
     if (typeof config.notifyUsers !== 'undefined' && config.notifyUsers) {
@@ -843,10 +843,13 @@ var Game = function Game(channel, client, config, cmdArgs) {
 
     // wait for players to join
     self.startTime = new Date();
-    self.startTimeout = setTimeout(self.nextRound, 30000);
+    self.startTimeout = setTimeout(self.nextRound, 60000);
 
     // client listeners
     client.addListener('part', self.playerLeaveHandler);
+    client.addListener('end', self.playerLeaveHandler);
+    client.addListener('kick', self.playerLeaveHandler);
+    client.addListener('close', self.playerLeaveHandler);
     client.addListener('quit', self.playerLeaveHandler);
     client.addListener('nick', self.playerNickChangeHandler);
     client.addListener('names'+channel, self.notifyUsersHandler);
