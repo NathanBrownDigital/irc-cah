@@ -1,0 +1,339 @@
+[
+  {
+    "type": "Question",
+    "value": "Snoonet's new logo is %s",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "#conversations expansion pack"
+  },
+  {
+    "type": "Question",
+    "value": "Snoonet's servers are down because of %s",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "#conversations expansion pack"
+  },
+  {
+    "type": "Question",
+    "value": "%s was banned from #conversations because of %s",
+    "keep": "Yes",
+    "draw": 1,
+    "pick": 2,
+    "source": "#conversations expansion pack"
+  },
+  {
+    "type": "Question",
+    "value": "gonzobot's newest command is %s",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "#conversations expansion pack"
+  },
+  {
+    "type": "Question",
+    "value": "We sacrifice %s to the Goddess Alicia",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "#conversations expansion pack"
+  },
+  {
+    "type": "Question",
+    "value": "Wolverine. Storm. Meet the newest X-Men recruit who has the mighty power of %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  
+  },
+  {
+    "type": "Question",
+    "value": "Your test results are back. I'm sorry but you seem to have stage-4 %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "911 what's your emergency? %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "The Bible is actually an allegory for %s",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "And on the 8th day, God was going to create %s, but then He decided,'Nah, better not.' ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Back in my day, %s only cost a quarter.  ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Childhood. It's basically for learning about %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Detroit: Come for %s. Stay for %s ",
+    "keep": "Yes",
+    "draw": 1,
+    "pick": 2,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Do you know why I pulled you over? %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Dr. Oz is in hot water again after making suspect claims that %s melts away body fat. ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Drop the kids off, call in sick, then hurry home to enjoy %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Earth! Fire! Wind! Water! %s !",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Elon Musk's next billion-dollar venture is in the growing field of  %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Errbody in da club git %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Everyone knows %s makes you immortal. ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Favourite to win Britain's Got Talent this year, is a dog with %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "For a million dollars I'll do %s, but for a Klondike bar I'll do %s. ",
+    "keep": "Yes",
+    "draw": 1,
+    "pick": 2,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "For future reference, if an interviewer asks you what hobbies are outside of work, don't mention %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "For my birthday I got a %s from my uncle.",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "For the first time in forever, there'll be %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "For the rest of the game, every time someone says %s, everybody drinks.",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Fred Durst did it all for the nookie. I did it for %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "For your crimes against the people, I hereby sentence you to %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "From the award winning novel comes the movie about one man and %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Grandma always said %s was the best medicine for hangovers ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Guy wont understand %s, its a girls thing.",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "He died doing what he loved, %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "He doesn't like to talk about it, but we all know his pink eye was caused by %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "He'd still be with us if he didn't try %s that day.",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Hi! I'm Johnny Knoxville, and this is %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "Hi, we are from the church of %s, do you have a moment to talk about %s?",
+    "keep": "Yes",
+    "draw": 1,
+    "pick": 2,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "His last tweet read: About to be %s #YOLO!",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "How are you forcibly asserting dominance? %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "How can I make sempai notice me? %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "How do you get AIDS the old fashioned way? %s ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "I am A %s, ask me about my %s!",
+    "keep": "Yes",
+    "draw": 1,
+    "pick": 2,
+    "source": "Thugnificent's Expansion"
+  },
+  {
+    "type": "Question",
+    "value": "I can't believe someone would actually buy a sex toy called '%s' ",
+    "keep": "Yes",
+    "draw": 0,
+    "pick": 1,
+    "source": "Thugnificent's Expansion"
+  }
+]
